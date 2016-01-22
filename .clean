@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta property="og:url"                content="http://manishbisht.github.io/8-Min/" />
 <meta property="og:type"               content="article" />
-<meta property="og:title"              content="love-app help you to khnow who love you />
+<meta property="og:title"              content="8 Min App for Mix News on Facebook" />
 <meta property="og:description"        content="Designed, Developed and Maintained by Manish Bisht" />
 <meta property="og:image"              content="http://manishbisht.github.io/8-Min/images/logo-large.jpg" />
 <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -35,7 +35,7 @@ function statusChangeCallback(response) {
 
   window.fbAsyncInit = function() {
   FB.init({
-    appId      : '1542202556090929',
+    appId      : 'AAAAA',
     cookie     : true,  // enable cookies to allow the server to access 
                         // the session
     xfbml      : true,  // parse social plugins on this page
@@ -64,7 +64,14 @@ console.log('Welcome!  Fetching your information.... ');
 	  document.getElementById('Login').style.display="none";
     });
    
-
+}
+function post()
+{
+FB.ui({
+  method: 'share',
+  href: 'uuuu',
+}, function(response){});
+}
 </script>
 <body style="margin-top:20px;">
 <div class="container">
@@ -73,7 +80,7 @@ console.log('Welcome!  Fetching your information.... ');
       <img src="images/logo-large.jpg">
    </div>
    <div class="col-md-12">
-      <h1>welcome to love-app .. who love me my frineds ? if you love me do 'comment' if you not love me do 'like'</h1>
+      <h1>8 Min App for Mix News on Facebook</h1>
    </div>
    <div class="col-md-12">
       <div id="Login">
